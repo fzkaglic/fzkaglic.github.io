@@ -1,0 +1,94 @@
+body{
+    font-family: 'Akshar', sans-serif;
+    font-size: 14px;
+    background-image: url("images/city.png");
+    background-repeat: no-repeat;
+
+}
+
+#content{
+    background-color: rgba(165, 162, 190, 0.9); 
+    height: 540px; 
+    width: 1300px; 
+    padding: 15px; 
+    position: absolute; 
+    top: 110px; left: 150px
+}
+
+
+#borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(images/frame.png) 30 round;
+    height: 540px;
+    width: 1300px;
+    position: absolute; top: 100px; left: 140px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 230px;
+    background-color: rgba(209, 198, 233, 0.908)
+}
+
+li {
+    float: left
+
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center
+}
+  
+li a:hover {
+    background-color: rgb(105, 57, 238);
+    color: white 
+}
+
+#name{
+    display: block;
+    color: white;
+    padding: 10px 10px; 
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    position: absolute; top: 3px; right: 20px
+}
+
+h1{
+    font-size: 72px;
+    position: absolute; top: 5px; left: 400px;
+    text-align: center;
+    color:rgb(71, 27, 193)
+}
+
+h2{
+    font-size: 36px;
+    position: absolute; top: 125px; left: 465px;
+    text-align: center;
+    color:rgb(115, 90, 184)
+}
+
+#codes{
+    position: absolute; top: 225px; left: 365px
+}
+
+#left{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 36px;
+    position: absolute; top: 15px; left: 30px;
+    color: mediumturquoise
+}
+
+#right{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 36px;
+    position: absolute; top: 15px; right: 30px;
+    color: mediumturquoise
+}
